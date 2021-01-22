@@ -325,11 +325,11 @@ Value=Ultrascale Plus CPM
 
 [Parameter2]
 Name=AM_Status
-Value=
+Value=oshw
 
 [Parameter3]
 Name=AM_Revision
-Value=3.3
+Value=3.3.1
 
 [Parameter4]
 Name=AM_Author
