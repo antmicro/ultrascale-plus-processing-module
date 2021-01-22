@@ -247,7 +247,7 @@ GenerateClassCluster=0
 Description=Production
 AllowFabrication=1
 ParameterCount=0
-VariationCount=45
+VariationCount=44
 Variation1=Designator=C12|UniqueId=\MJTPENDV|Kind=1|AlternatePart= 
 Variation2=Designator=C13|UniqueId=\JHOBXRVN|Kind=1|AlternatePart= 
 Variation3=Designator=C19|UniqueId=\MBLMXLFI|Kind=1|AlternatePart= 
@@ -291,8 +291,7 @@ Variation40=Designator=R100|UniqueId=\ASAQXESU|Kind=1|AlternatePart=
 Variation41=Designator=R97|UniqueId=\JYGMVQHM|Kind=1|AlternatePart= 
 Variation42=Designator=R108|UniqueId=\LMTXBOCM|Kind=1|AlternatePart= 
 Variation43=Designator=R110|UniqueId=\RPLQUQRW|Kind=1|AlternatePart= 
-Variation44=Designator=R112|UniqueId=\ALCAHPJJ|Kind=0|AlternatePart= 
-Variation45=Designator=IC5|UniqueId=\NQATYKGD|Kind=1|AlternatePart= 
+Variation44=Designator=IC5|UniqueId=\NQATYKGD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
