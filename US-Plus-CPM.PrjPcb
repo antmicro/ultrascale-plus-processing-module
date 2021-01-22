@@ -324,7 +324,7 @@ Value=Ultrascale Plus CPM
 
 [Parameter2]
 Name=AM_Status
-Value=oshw
+Value=OSHW
 
 [Parameter3]
 Name=AM_Revision
