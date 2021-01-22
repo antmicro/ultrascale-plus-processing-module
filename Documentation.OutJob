@@ -152,7 +152,7 @@ OutputType6=BOM_PartType
 OutputName6=BOM-Parts
 OutputCategory6=Report
 OutputDocumentPath6=
-OutputVariantName6=Prototype
+OutputVariantName6=Production
 OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
@@ -167,7 +167,7 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=Filter
 Configuration6_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration6_Name2=General
-Configuration6_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=True|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=Z:\Templates\BOM\BOM_PartSymbols.xlsx|BatchMode=0|FormWidth=1596|FormHeight=688|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration6_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=Z:\Templates\BOM\BOM_PartSymbols.xlsx|BatchMode=0|FormWidth=1596|FormHeight=688|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration6_Name3=GroupOrder
 Configuration6_Item3=MPN=True
 Configuration6_Name4=PCBDocument
