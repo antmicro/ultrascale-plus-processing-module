@@ -1,33 +1,30 @@
-Antmicro UltraScale+ Processing Module
-======================================
+# Antmicro UltraScale+ Processing Module
 
-Copyright (c) 2016-2021 `Antmicro <https://www.antmicro.com/>`_
+Copyright (c) 2016-2023 [Antmicro](https://www.antmicro.com)
 
-.. image:: Images/uscpm.jpg
-   :scale: 40%   
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/ultrascale-plus-processing-module)
 
-Overview
-========
+![](img/ultrascale-plus-processing-module.jpg)
 
-Antmicro’s Ultrascale+ Processing Module is a specialized development board supporting Enclustra `Mercury+ XU1 module <https://www.enclustra.com/en/products/system-on-chip-modules/mercury-xu1/>`_ with an embedded Xilinx Zynq UltraScale+ FPGA MPSoC, created for high-speed data processing applications.
+## Overview
+
+Antmicro’s Ultrascale+ Processing Module is a specialized development board supporting Enclustra [Mercury+ XU1 module](https://www.enclustra.com/en/products/system-on-chip-modules/mercury-xu1) with an embedded Xilinx Zynq UltraScale+ FPGA MPSoC, created for high-speed data processing applications.
 The UltraScale+ Processing Module is an excellent starting point for developing your next generation FPGA MPSoC product in machine vision, image acquisition & processing, industrial motion control and other applications.
 
-Repository structure:
----------------------
+## Project structure
 
-The main repository directory contains the Altium PCB project file, the Outjob file, LICENSE and README.
+The main directory contains the Altium PCB project file, the Outjob file, LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``PCB`` -  contains all Altium design files
-* ``Libraries`` - contains the component libraries
-* ``Documentation`` - contains selected files for device fabrication (schematic in PDF, BoM) generated from the Altium project
-* ``Images`` - contains graphics for this README
-* ``3DModels`` - contains files defining the mechanical model of the assembled board
+* `PCB` -  contains all Altium design files
+* `Libraries` - contains the component libraries
+* `Documentation` - contains selected files for device fabrication (schematic in PDF, BoM) generated from the Altium project
+* `img` - contains graphics for this README
+* `3DModels` - contains files defining the mechanical model of the assembled board
 
 The PCB project files were prepared in Altium Designer 14.1.
 
-Key Features
-============
+## Key Features
 
 * Enclustra Mercury+ module connector
 * 28 differential pairs available on the edge backplane connector
@@ -42,13 +39,7 @@ Key Features
 
 Please note that the backplane connector available on board is not pin-compatible with PCIe x16 standard.
 
-Board layout & dimensions
-=========================
-
-.. image:: Images/layout.png
-
-Getting started
-===============
+## Getting started
 
 The board can be produced and assembled using the provided design files.
 Please take a look at the mechanical layers for more information regarding the PCB stackup recommended for fabrication.
@@ -60,7 +51,6 @@ Two new serial devices should appear in your system.
 One of them, designated with the lower number (/dev/ttyUSB0) is used as a debug console whereas the other (/dev/ttyUSB1) is a general purpose UART connected to the FPGA fabric.
 Use your favourite terminal client (e.g. minicom) to open the debug console interface port. The default connection baudrate is 115200 with 8-bit transmission, 1 stop bit and no flow control.
 
-License
-=======
+## License
 
-`Apache-2.0 <LICENSE>`_
+This project is published under the [Apache-2.0](LICENSE).
